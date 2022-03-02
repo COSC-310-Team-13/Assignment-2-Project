@@ -25,7 +25,7 @@ def returnResp():
 	print("What can i help you with");
 	inputresp = input()
 	if checkInput(inputresp):
-			proccesInput(inputresp);
+			proccessInput(inputresp);
 			while ('yes' in input()):
     				newQuestion();
 	else:
@@ -33,7 +33,8 @@ def returnResp():
 		return helper();
 	return
 
-def proccesInput(inputresp):
+# Function to proccess user input
+def proccessInput(inputresp):
 	for x in responses:
 		if x in inputresp: ## if response key  in string 
 			resp =  responses[x];
@@ -56,6 +57,7 @@ def proccesInput(inputresp):
 				return
 	return
 
+# Check if user input has answer
 def checkInput(input):
 		found = False;
 		for x in responses:
@@ -67,23 +69,24 @@ def newQuestion():
 		print("What can i help you with");
 		inputresp = input()
 		if checkInput(inputresp):
-			proccesInput(inputresp);
+			proccessInput(inputresp);
 		else:
 			print("I am not sure I understand your issue, please try rephrasing it in a different way\n");
 			return helper();
 		return
 
+# Provide help message when user input has no response
 def helper():
 	inputresp = input();
 	if checkInput(inputresp):
-		proccesInput(inputresp);
+		proccessInput(inputresp);
 		while ('yes' in input()):
     				newQuestion();
 	else:
 		print("I still canno't understand, try using keywords like symptoms, medication, treatment, etc");
 		inputresp = input()
 	if checkInput(inputresp):	
-		proccesInput(inputresp);
+		proccessInput(inputresp);
 		while ('yes' in input()):
     				newQuestion();
 	else:
