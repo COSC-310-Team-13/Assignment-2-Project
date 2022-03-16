@@ -1,0 +1,17 @@
+{
+
+	"name": "I'm going to ask you a series of questions to access the possibility of you suffering from depression. Is that okay with you?",
+
+	"suffering":  "I’m going to ask you a series of questions to access the possibility of you suffering from depression.",
+
+	"depression":  "I’m going to ask you a series of questions to access the possibility of you suffering from depression.",
+
+	"symptoms": "People with mild depression may experience the following: feelings of sadness, loss of appetite, reduced energy levels, sleeping problems, and difficulties with concentration. Mild depression is associated with a less intense feeling with those symptoms. It is highly recommended people with mild depression seek treatment. Do you have any more questions?",
+
+
+	"treatment":"Most treatments for depression use a form of therapy and or antidepressants as well, but there are some other treatment methods available as well. Do you have any other questions?",
+
+	"medication": "Antidepressants are used to help balance chemicals in the brain called neurotransmitters, these chemicals affect your mood and emotion. So in taking antidepressants you may experience relief of some or all of your symptoms. Antidepressants are generally considered safe, but there are some risks and some people do experience certain side effects from taking the medication. Do u have any other questions?",
+
+	"everything":"It was nice talking to you, have a great day."
+}

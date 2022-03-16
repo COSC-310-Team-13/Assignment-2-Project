@@ -1,0 +1,38 @@
+/* Empty */
+
+.align_middle{
+  display:flex;
+  justify-content:center !important;
+  text-align: center !important;
+}
+.portrait_section{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button1{
+  text-align: center;
+  justify-content: center;
+}
+.p{
+  text-size: 16px;
+}
+
+.center{
+  text-align: center;
+  justify-content: center;
+}
+.error_text{
+  color: red;
+}
+show{
+  display: inline-block !important;
+}
+
+hide{ 
+  display : none !important;
+}
+
+hidden_button{
+  border: none !important;
+}
